@@ -2,19 +2,19 @@
 // within \bin\TestMetaprograms, so we have different
 // relative assembly paths 
 #if MIXIN 
-#I @"..\..\packages\FSharp.Compiler.Service\lib\net45\"
+#I @"../../packages/FSharp.Compiler.Service/lib/net45/"
 #r "FSharp.Compiler.Service" 
-#I @"..\"
+#I @"../"
 #r @"MixinProvider.dll"
 #else
 // these are the design-time relative paths
-#I @"F:\GIT\FSharp.Compiler.Service\bin\v4.5\"
-#r "FSharp.Compiler.Service" 
-#I @"..\..\..\bin\"
+#I @"../../../packages/FSharp.Compiler.Service/lib/net45/"
+#r "FSharp.Compiler.Service"
+#I @"../../../bin/"
 #r @"MixinProvider.dll"
 #endif
 
-//#load @"F:\dropbox\FsEye\FsEye.fsx"
+//#load @"F:/dropbox/FsEye/FsEye.fsx"
 
 open System
 open System.IO

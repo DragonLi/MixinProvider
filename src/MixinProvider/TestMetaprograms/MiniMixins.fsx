@@ -8,9 +8,9 @@
 #r @"MixinProvider.dll"
 #else
 // these are the design-time relative paths
-#I @"..\..\..\packages\FSharp.Compiler.Service\lib\net45\"
+#I @"../../../packages/FSharp.Compiler.Service/lib/net45/"
 #r "FSharp.Compiler.Service" 
-#I @"..\..\..\bin\"
+#I @"../../../bin/"
 #r @"MixinProvider.dll"
 #endif
 

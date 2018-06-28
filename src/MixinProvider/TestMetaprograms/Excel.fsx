@@ -1,6 +1,5 @@
-﻿#r @"F:\GIT\SqlProvider\bin\FSharp.Data.SqlProvider.dll" 
-#load "F:\GIT\MixinProvider\src\MixinProvider\SquirrelMix.fs"
-
+﻿#r @"../../../packages/SQLProvider.1.1.44/lib/net451/FSharp.Data.SqlProvider.dll" 
+#load "../../MixinProvider/SquirrelMix.fs"
 
 [<Literal>] 
 let peopleCs = @"Driver={Microsoft Excel Driver (*.xls)};DriverId=790;Dbq=I:\people.xls;DefaultDir=I:\;"

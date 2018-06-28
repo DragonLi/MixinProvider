@@ -3,6 +3,7 @@
 // --------------------------------------------------------------------------------------
 
 #r @"packages/FAKE/tools/FakeLib.dll"
+#r @"packages/Microsoft.Build.15.7.179/lib/net46/Microsoft.Build.dll"
 
 open Fake
 open Fake.Git
